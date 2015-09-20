@@ -1,0 +1,66 @@
+body {
+	padding:0;
+}
+
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#contact {
+	padding:20px 0;
+}
+
+textarea {
+	resize:none;
+}
+
+.input-80 {
+	max-width: 83%;
+	width: 40%;
+}
+
+#formResponse {
+	font-weight: bold;
+}
+
+.formUnfilled {
+	display: none;
+}
+
+label.valid {
+  width: 24px;
+  height: 24px;
+  background: url(../img/valid.png) center center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+label.error {
+  color: red;
+  padding: 2px 0;
+  margin-top: 2px;
+  margin-bottom: -10px;
+}
+
+.warning {
+	color: red;
+}
+
+
+
+/* Manual Code  */
+.form-horizontal .control-label {
+	width: 18%;
+	max-width: 50%;
+	text-align: left;
+}
+.form-horizontal .controls {
+	margin-left: 60px;
+}
+input[type="text"]{
+	height: 25px;
+}
+textarea {
+	height: 120px;
+}

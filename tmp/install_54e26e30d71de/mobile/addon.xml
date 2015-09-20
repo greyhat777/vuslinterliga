@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="jsaddon" version="1.5.0">
+	<name>mobile</name>
+	<title>Mobile layout addon</title>
+	<description>Mobile layout addon</description>
+	<version>3.2.3</version>
+</extension>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7.0" client="site" method="upgrade">
+	<name>Simple Random Quotes</name>
+	<author>Omar Muhammad</author>
+	<creationDate>23/8/2011</creationDate>
+	<copyright>Copyright © 2007 - 2011 Omar's Site. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@omar84.com</authorEmail>
+	<authorUrl>http://omar84.com</authorUrl>
+	<version>1.7.0</version>
+	<description>OMAR_DESC</description>
+	<files>
+		<filename module="mod_srq">mod_srq.php</filename>
+		<filename>functions.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+   		<language tag="en-GB">language/en-GB.mod_srq.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="spacer" type="spacer" hr="true" />
+				<field name="&lt;b&gt;General Settings:&lt;/b&gt;" type="spacer" />
+				<field name="dir" type="list" default="ltr" label="Module Direction" description="Choose the direction of your Site">
+					<option value="ltr">Left to Right</option>
+					<option value="rtl">Right to Left</option>
+				</field>
+				<field name="source" type="list" default="1" label="Quotes Source" description="Choose the source of quotes">
+					<option value="1">http://www.quotedb.com</option>
+					<option value="2">Custom text file</option>
+				</field>
+				<field name="renderer" type="list" default="3" label="Renderer" description="Choose the method of fetching the quote from the source">
+					<option value="1">cURL Functions</option>
+					<option value="2">file_get_contents Function</option>
+					<option value="3">fopen Function</option>
+				</field>
+				<field name="spacer2" type="spacer" hr="true" />
+				<field name="&lt;b&gt;Custom Text File:&lt;/b&gt;" type="spacer" />
+				<field name="url" type="textarea" cols="40" rows="2" default="" label="Text File URL" description="OMAR_URL" />
+				<field name="sep" type="text" default="" label="Quote/Author Separator" description="OMAR_SEP" />
+				<field name="spacer3" type="spacer" hr="true" />
+				<field name='&lt;b&gt;Emergency Quotes:&lt;/b&gt;&lt;br /&gt;&lt;div width="300"&gt;These quotes will be displayed when the Quotes Source can not be loaded&lt;/div&gt;&lt;br /&gt;&lt;div width="300" style="color:red"&gt;Please fill at least 3 Emergency Quotes in the following format:&lt;/div&gt;&lt;b&gt;"Quote Text" - Author&lt;/b&gt;' type="spacer" />
+				<field name="backup1" type="textarea" cols="40" rows="3" default='"Be faithful to that which exists within yourself." - Andre Gide' label="Emergency Quote 1" description="Emergency Quote 1" />
+				<field name="backup2" type="textarea" cols="40" rows="3" default='' label="Emergency Quote 2" description="Emergency Quote 2" />
+				<field name="backup3" type="textarea" cols="40" rows="3" default='' label="Emergency Quote 3" description="Emergency Quote 3" />
+				<field name="backup4" type="textarea" cols="40" rows="3" default='' label="Emergency Quote 4" description="Emergency Quote 4" />
+				<field name="backup5" type="textarea" cols="40" rows="3" default='' label="Emergency Quote 5" description="Emergency Quote 5" />
+				<field name="backup6" type="textarea" cols="40" rows="3" default='' label="Emergency Quote 6" description="Emergency Quote 6" />
+				<field name="backup7" type="textarea" cols="40" rows="3" default='' label="Emergency Quote 7" description="Emergency Quote 7" />
+				<field name="backup8" type="textarea" cols="40" rows="3" default='' label="Emergency Quote 8" description="Emergency Quote 8" />
+				<field name="backup9" type="textarea" cols="40" rows="3" default='' label="Emergency Quote 9" description="Emergency Quote 9" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

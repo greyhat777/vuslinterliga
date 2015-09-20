@@ -1,0 +1,65 @@
+/*
+
+Extension Name: Responsive FavPromote Module
+Author: FavThemes
+Author URI: http://www.favthemes.com
+Version: 1.4
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/copyleft/gpl.html
+
+*/
+
+
+#favpromote {
+	position:relative; 
+	overflow:hidden;
+}
+#favpromote:hover {
+	color: #fff;
+	-webkit-transition: all 400ms linear;
+	-moz-transition: all 400ms linear;
+	-o-transition: all 400ms linear;
+	transition: all 400ms linear;
+}
+#favpromote h3 {
+	font-weight: normal;
+}
+#favpromote:hover h3#favpromote-title,
+#favpromote:hover h3#favpromote-title a,
+#favpromote:hover h3#favpromote-title i {
+	background-color: #111!important;
+	color: #fff!important;
+}
+#favpromote-text {
+	padding: 4px 21px 14px;
+	margin: 0;
+}
+#favpromote:hover #favpromote-text {
+	color: #fff!important;
+}
+#favpromote-uploadimage {
+	padding: 21px;
+}
+#favpromote-uploadimage img {
+	border: 1px solid #ddd;
+	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+	-moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+}
+#favpromote-uploadimage img:hover {
+	border: 1px solid #fff;
+}
+#favpromote #favpromote-title a {
+	vertical-align: middle;
+}
+#favpromote #favpromote-title a:hover {
+	color: #fff!important;
+}
+
+@media only screen and (max-width : 320px) {
+
+	#favpromote-uploadimage img {
+		margin: 0 0 21px 0;
+	}
+
+}

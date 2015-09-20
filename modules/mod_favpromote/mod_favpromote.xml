@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>FavPromote</name>
+	<author>FavThemes</author>
+	<version>1.4</version>
+	<creationDate>2013</creationDate> 
+	<authorUrl>http://www.favthemes.com</authorUrl> 
+	<authoremail>hello@favthemes.com</authoremail>
+	<copyright>Copyright (C) FavThemes. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<description>
+<![CDATA[ 
+<p>Responsive FavPromote Joomla!3 Module</p>
+<link rel="stylesheet" href="../modules/mod_favpromote/theme/admin.css" type="text/css" />
+<script src="../modules/mod_favpromote/theme/jscolor/jscolor.js" type="text/javascript"></script>
+]]>
+	</description>
+
+	<files>
+		<filename module="mod_favpromote">mod_favpromote.php</filename>
+		<filename>mod_favpromote.xml</filename>	
+		<filename>theme/jscolor/jscolor.js</filename>
+		<filename>index.html</filename>
+		<filename>License.txt</filename>
+		<folder>theme</folder>
+		<folder>demo</folder>
+	</files>
+
+	<help key="FavPromote" />
+
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+
+					<field
+						name="moduleBgColor"
+						class="color {required:false}"
+						type="text"
+						default="FFFFFF"
+						label="Module Background Color"
+						description="Choose the color for the background of the module. A blank field reverts the setting to the default value." />
+
+					<field
+						name="moduleBorder"
+						class="color {required:false}"
+						type="text"
+						default="DDDDDD"
+						label="Module Border Color"
+						description="Choose the color for the border of the module. A blank field reverts the setting to the default value." />
+
+					<field
+						name="moduleBorderRadius"
+						type="text"
+						default="4px"
+						label="Module Border Radius"
+						description="Choose the border-radius for the paragraph. Note that this option does not work in IE7-8 due to lack of border-radius support. Please insert the number using pixels or em (for example: 14px, not 14)." />
+
+				<field type="spacer" hr="true" />
+
+					<field
+						name="uploadImage"
+						type="media"
+						label="Upload Image"
+						description="Upload the image for the module" />
+
+					<field
+						name="imageAlt"
+						type="text"
+						default=""
+						label="Image Alt Text"
+						description="Insert text for image Alt" />
+
+					<field
+						name="moduleLink"
+						type="text"
+						default="http://www.favthemes.com"
+						label="Image and Title Link"
+						description="Insert the URL for the module image and title" />
+
+					<field
+						name="moduleTarget"
+						type="radio"
+						default="blank"
+						class="btn-group"
+						label="Link Target"
+						description="Select the target of the URL">
+							<option	value="self">self</option>
+							<option	value="blank">blank</option>
+							<option	value="parent">parent</option>
+							<option	value="top">top</option>
+					</field>
+
+				<field type="spacer" hr="true" />
+
+					<field
+						name="paragraphText"
+						type="textarea"
+						rows="10"
+						cols="40"
+						default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+						label="Paragraph Text"
+						description="Insert text for paragraph in the module" />
+
+					<field
+						name="paragraphTextColor"
+						class="color {required:false}"
+						type="text"
+						default="777777"
+						label="Paragraph Text Color"
+						description="Choose the color for the paragraph. A blank field reverts the setting to the default value." />
+
+					<field
+						name="paragraphTextFontSize"
+						type="text"
+						default="14px"
+						label="Paragraph Font Size"
+						description="Choose the font-size for the paragraph. Please insert the number using pixels or em (for example: 14px, not 14)." />
+
+					<field
+						name="paragraphTextLineHeight"
+						type="text"
+						default="1.5em"
+						label="Paragraph Line Height"
+						description="Choose the line-height for the paragraph. The line-height property is used to modify the spacing between lines of text. Please insert the number using pixels or em (for example: 14px, not 14)." />
+
+					<field
+						name="paragraphTextAlign"
+						type="radio"
+						default="left"
+						class="btn-group"
+						label="Paragraph Text Align"
+						description="Set the text align for the paragraph in the module">
+							<option	value="left">left</option>
+							<option	value="center">center</option>
+							<option	value="right">right</option>
+					</field>
+
+				<field type="spacer" hr="true" />
+
+					<field
+						name="titleText"
+						type="textarea"
+						rows="2"
+						cols="40"
+						default="Title Here"
+						label="Module Title Text"
+						description="Insert text for title of the module" />
+
+					<field
+						name="titleIcon"
+						type="text"
+						default="fa-picture-o"
+						label="Title Icon"
+						description="Insert the Font Awesome icon name. For example: fa-camera or fa-arrow." />
+
+					<field
+						name="titleIconFontSize"
+						type="text"
+						default="14px"
+						label="Icon Font Size"
+						description="Set the font size for the icon of the title. Please insert the number using pixels or em (for example: 14px, not 14)." />
+
+					<field
+						name="titleIconVerticalAlign"
+						type="radio"
+						default="middle"
+						class="btn-group"
+						label="Title Icon Vertical Align"
+						description="Set the vertical align for the icon of the title of the module">
+							<option	value="top">top</option>
+							<option	value="middle">middle</option>
+							<option	value="bottom">bottom</option>
+					</field>
+
+					<field
+						name="titleColor"
+						class="color {required:false}"
+						type="text"
+						default="FFFFFF"
+						label="Title Color"
+						description="The color for the title of the module. A blank field reverts the setting to the default value." />
+
+					<field
+						name="titleBgColor"
+						class="color {required:false}"
+						type="text"
+						default="496298"
+						label="Title Background Color"
+						description="The color for the background for the title of the module. A blank field reverts the setting to the default value." />
+
+					<field
+						name="titlePadding"
+						type="text"
+						default="10px 20px"
+						label="Title Padding"
+						description="Set the padding for the title of the module. The padding shorthand property sets all the padding properties in one declaration for top, right, bottom and left padding. This property can have from one to four values. Please insert the numbers using pixels or em (for example: 14px, not 14)" />
+
+					<field
+						name="titleFontSize"
+						type="text"
+						default="18px"
+						label="Title Font Size"
+						description="Set the font size for the title of the module. Please insert the number using pixels or em (for example: 14px, not 14)." />
+
+					<field
+						name="titleLineHeight"
+						type="text"
+						default="1.4em"
+						label="Title Line Height"
+						description="Set the line height for the title of the module" />
+
+					<field
+						name="titleTextAlign"
+						type="radio"
+						default="left"
+						class="btn-group"
+						label="Title Text Align"
+						description="Set the text align for the title of the module">
+							<option	value="left">left</option>
+							<option	value="center">center</option>
+							<option	value="right">right</option>
+					</field>
+
+			</fieldset>
+			
+			<fieldset name="advanced">
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

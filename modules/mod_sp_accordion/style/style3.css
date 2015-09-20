@@ -1,0 +1,14 @@
+/*------------------------------------------------------------------------
+# JoomShaper Accordion Module by JoomShaper.com
+# ------------------------------------------------------------------------
+# author    JoomShaper http://www.joomshaper.com
+# Copyright (C) 2010 - 2012 JoomShaper.com. All Rights Reserved.
+# @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+# Websites: http://www.joomshaper.com
+-------------------------------------------------------------------------*/
+.sp-accordion.sp-accordion-style3 {border-top:1px solid #e7e7e7; border-left:1px solid #e7e7e7; border-right:1px solid #e7e7e7; border-bottom:1px solid #e7e7e7;}
+.sp-accordion.sp-accordion-style3 .toggler {border-bottom:1px solid #e7e7e7;}
+.sp-accordion.sp-accordion-style3 .toggler,.sp-accordion.sp-accordion-style3 .toggler span,.sp-accordion.sp-accordion-style3 .toggler span span{display:block;height:30px;line-height:30px;cursor:pointer; background-color:#f9f9f9;}
+.sp-accordion.sp-accordion-style3 .toggler span,.sp-accordion.sp-accordion-style3 .toggler span span{background:none;font-size:13px;font-weight:700}
+.sp-accordion.sp-accordion-style3 .toggler span span{padding:0px 20px; border-bottom:1px solid #e7e7e7;}
+.sp-accordion.sp-accordion-style3 .sp-accordion-inner{padding:10px 20px 10px 20px; border-bottom:1px solid #e7e7e7;}

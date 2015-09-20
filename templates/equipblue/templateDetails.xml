@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<extension version="3.1" type="template">
+
+
+
+  <name>EquipBlue</name>
+
+
+
+  <version>2.0</version>
+
+
+
+  <creationDate>February 2014</creationDate>
+
+
+
+  <author>webunderdog</author>
+
+
+
+  <authorEmail>support@webunderdog.com</authorEmail>
+
+
+
+  <copyright>Copyright (C) 2013 webunderdog.com</copyright>
+
+
+
+  <description>Equip Sports and Fitness Theme v2 by webunderdog. Responsive template based on Bootstrap and built on Joomla 3 CMS.</description>
+
+
+
+  <files>
+
+
+
+    <filename>index.php</filename>
+
+
+
+    <folder>css</folder>
+
+
+
+    <folder>js</folder>
+
+
+
+    <folder>images</folder>
+
+
+
+	<folder>snippets</folder>
+
+
+
+  </files>
+
+
+
+  <positions>
+
+
+
+        <position>debug</position>
+
+
+
+		<position>intro</position>
+		<position>intro1</position>
+		<position>intro2</position>
+		
+		<position>head1</position>
+	
+		<position>addthis</position>
+
+		<position>utility1</position>
+
+		<position>utility2</position>
+
+        <position>utility3</position>
+
+        <position>utility4</position>
+
+        <position>utility5</position>
+
+        <position>utility6</position>
+
+		<position>feature1</position>
+
+		<position>feature2</position>
+
+		<position>feature3</position>
+
+		<position>feature4</position>
+
+		<position>feature5</position>
+
+		<position>feature6</position>
+
+        <position>footer1</position>
+
+        <position>footer2</position>
+
+        <position>footer3</position>
+
+        <position>footer4</position>
+
+        <position>footer5</position>
+
+        <position>footer6</position>
+
+        <position>footer6</position>
+
+        <position>bottom1</position>
+
+        <position>bottom2</position>
+
+		<position>bottom3</position>
+
+		<position>bottom4</position>
+
+		<position>bottom5</position>
+
+		<position>bottom6</position>
+
+        <position>showcase</position>
+		<position>showcase1</position>
+		<position>showcase2</position>
+
+        <position>copy1</position>
+
+		<position>left</position>
+
+		<position>right</position>
+
+		<position>logo</position>
+
+		<position>navmenu</position>
+
+		<position>tagline</position>
+
+		<position>icons</position>
+
+		<position>contenttop</position>
+
+		<position>contentbot</position>
+
+		<position>maintop1</position>
+
+		<position>maintop2</position>
+
+		<position>maintop3</position>
+
+		<position>maintop4</position>
+
+		<position>maintop5</position>
+
+		<position>maintop6</position>
+
+		<position>mainbottom1</position>
+
+		<position>mainbottom2</position>
+
+		<position>mainbottom3</position>
+
+		<position>mainbottom4</position>
+
+		<position>mainbottom5</position>
+
+		<position>mainbottom6</position>
+		
+		<position>maincenter1</position>
+
+		<position>maincenter2</position>
+
+		<position>maincenter3</position>
+
+		<position>maincenter4</position>
+
+		<position>maincenter5</position>
+
+		<position>maincenter6</position>
+
+		<position>spotlight1</position>
+
+		<position>spotlight2</position>
+
+		<position>spotlight3</position>
+
+		<position>spotlight4</position>
+
+		<position>spotlight5</position>
+
+		<position>spotlight6</position>
+
+		<position>tab1</position>
+
+		<position>tab2</position>
+
+		<position>tab3</position>
+
+		<position>tab4</position>
+
+		<position>tab5</position>
+		
+		<position>tab6</position>
+
+		<position>tab7</position>
+
+		<position>tab8</position>
+
+		<position>tab9</position>
+
+		<position>tab10</position>
+		<position>intro</position>
+
+
+  </positions>
+
+
+
+</extension>
